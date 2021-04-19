@@ -70,3 +70,15 @@
   height: 3em;
   width: 10em;
 }
+/* #main2 {
+  grid-row: 1/7;
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+} */
+#square1 {
+  background-color: black;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
