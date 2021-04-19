@@ -8,8 +8,24 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .navItem {
   color: black;
   width: 10%;
+  width: 5em;
+  background-color: purple;
+  height: 2em;
+  margin: 1em;
+}
+#first {
+  height: 2em;
+  width: 2em;
+  background-color: blue;
+}
+#more {
+  height: 3em;
+}
+#search {
+  width: 18em;
 }
