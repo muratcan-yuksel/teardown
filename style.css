@@ -70,15 +70,39 @@
   height: 3em;
   width: 10em;
 }
-/* #main2 {
-  grid-row: 1/7;
-  grid-column: 1/5;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-} */
+.mainItem2 {
+  margin: 1em;
+}
 #square1 {
   background-color: black;
   grid-row: 2/3;
   grid-column: 1/2;
+}
+#bigTitle {
+  background-color: rgb(212, 166, 166);
+  grid-row: 2/3;
+  grid-column: 2/5;
+}
+#para {
+  background-color: rgb(212, 166, 166);
+  grid-row: 3/3;
+  grid-column: 1/5;
+}
+#square2 {
+  background-color: rgb(122, 43, 43);
+  grid-row: 4;
+}
+#title1 {
+  grid-row: 4;
+  grid-column: 2/5;
+  background-color: black;
+}
+#square3 {
+  grid-row: 5;
+  background-color: rgb(122, 43, 43);
+}
+#title2 {
+  grid-row: 5;
+  grid-column: 2/5;
+  background-color: black;
 }
