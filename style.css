@@ -1,0 +1,15 @@
+#container {
+  height: 100%;
+  width: 100%;
+}
+#navbar {
+  background-color: red;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navItem {
+  color: black;
+  width: 10%;
+}
